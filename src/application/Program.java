@@ -13,18 +13,27 @@ import java.util.Scanner;
 import java.util.Date;
 
 public class Program {
-    public static void main(String[] args) throws ParseException {
+    public static void main(String[] args)
+    {
 
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         System.out.println("Name: ");
         String name = sc.nextLine();
         System.out.println("Email: ");
         String email = sc.nextLine();
         System.out.println("Birthdate(dd/mm/yyyy)");
-        Date birthDate = sdf.parse(sc.next());
+
+        Date birthDate = null;
+        try {
+            birthDate = sdf.parse(sc.next());
+        } catch (ParseException e){
+            System.out.println("Erro de conversão");
+        } catch (NullPointerException e){
+            System.out.println("Não há nada escrito aqui");
+        }
 
         Client cliente = new Client(name, email, birthDate);
 

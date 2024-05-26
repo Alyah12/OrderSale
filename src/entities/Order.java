@@ -59,6 +59,10 @@ public class Order {
         itens.add(item);
     }
 
+    public  void  addItem (String string) {
+        System.out.println(string);
+    }
+
     public void removeItem(OrderItem item) {
         itens.remove(item);
     }
