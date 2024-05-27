@@ -11,7 +11,7 @@ public class Order {
 
     private Client client;
 
-    private List<OrderItem> itens = new ArrayList<OrderItem>();
+    private List<OrderItem> itens = new ArrayList<>();
 
     public Order() {
 
