@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fc3d8c00-b7ac-4358-91cc-c38403c1dee5" name="Changes" comment="#add">
-      <change afterPath="$PROJECT_DIR$/src/exception/NotZeroException.java" afterDir="false" />
+    <list default="true" id="fc3d8c00-b7ac-4358-91cc-c38403c1dee5" name="Changes" comment="#add exceptions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entities/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Client.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/entities/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entities/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,6 +87,10 @@
       <workItem from="1716745257319" duration="300000" />
       <workItem from="1716748917478" duration="1925000" />
       <workItem from="1716763376600" duration="6216000" />
+      <workItem from="1716780735804" duration="64000" />
+      <workItem from="1716819986252" duration="869000" />
+      <workItem from="1716836094709" duration="2950000" />
+      <workItem from="1716918808354" duration="435000" />
     </task>
     <task id="LOCAL-00001" summary="#add">
       <option name="closed" value="true" />
@@ -97,7 +100,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716750050751</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="#add exceptions">
+      <option name="closed" value="true" />
+      <created>1716780775576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1716780775576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,6 +127,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="#add" />
-    <option name="LAST_COMMIT_MESSAGE" value="#add" />
+    <MESSAGE value="#add exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="#add exceptions" />
   </component>
 </project>

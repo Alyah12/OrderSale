@@ -12,6 +12,9 @@ public class Client {
     }
 
     public Client(String name, String email, Date birthDate) {
+        if (name == null || email == null || birthDate == null){
+        throw new NullPointerException("name and email and birthDate are null");
+        }
         this.name = name;
         this.email = email;
         this.birthDate = birthDate;
